@@ -1,7 +1,9 @@
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Halo Dunia, BYFORT aktif!</h1>
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">Halo BYFORT 👋</h1>
     </div>
-  )
+  );
 }
+
+export default App;
